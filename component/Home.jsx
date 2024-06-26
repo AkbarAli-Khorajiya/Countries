@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import Searchbar from "SearchBar";
+import Searchbar from "./Searchbar";
 import Filter from "./Filter";
 import CountriesContainer from "./CountriesContainer";
 import { useOutletContext } from "react-router-dom";
