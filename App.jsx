@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Header from "./component/Header";
 import "./App.css";
-import Searchbar from "./component/SearchBar";
-import Filter from "./component/Filter";
-import CountriesContainer from "./component/CountriesContainer";
 import { Outlet } from "react-router-dom";
 import { ThemeContext } from "./context/ThemeContext";
 
